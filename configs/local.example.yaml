@@ -1,0 +1,18 @@
+datasets:
+  imagenet1k:
+    type: imagefolder
+    root: /path/to/imagenet
+    splits:
+      train: train
+      val: val
+  coco2017:
+    type: recursive
+    root: /path/to/coco
+    splits:
+      train: train2017
+  stl10:
+    type: stl10
+    root: /path/to/stl10
+    splits:
+      train: train
+      val: test

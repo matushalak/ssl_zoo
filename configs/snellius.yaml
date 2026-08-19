@@ -1,0 +1,18 @@
+datasets:
+  imagenet1k:
+    type: imagefolder
+    root: /scratch-nvme/ml-datasets/imagenet/torchvision_ImageFolder
+    splits:
+      train: train
+      val: val
+  coco2017:
+    type: recursive
+    root: /projects/2/managed_datasets/COCO/processed
+    splits:
+      train: train2017
+  stl10:
+    type: stl10
+    root: /scratch-nvme/ml-datasets/stl10
+    splits:
+      train: train
+      val: test
